@@ -1,0 +1,8 @@
+Select collateral type us_munis but not inr_cash - aud001
+Select collateral type inr_cash us_corp and has posted us_tips - aud002
+Select collateral type us_corp and has posted us_munis - aud003
+Select  collateral type us_tips but not us_corp - aud004
+Select collateral type inr_cash and has posted us_corp  - aud005
+Select collateral type us_munis us_tips but not inr_cash - aud006
+Select collateral type us_tips inr_cash but not us_corp - aud007
+
