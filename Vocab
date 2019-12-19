@@ -5,4 +5,37 @@ Select  collateral type us_tips but not us_corp - aud004
 Select collateral type inr_cash and has posted us_corp  - aud005
 Select collateral type us_munis us_tips but not inr_cash - aud006
 Select collateral type us_tips inr_cash but not us_corp - aud007
-
+us_corp but not inr_cash and has posted us_munis- aud008
+posted us_corp but not inr_cash us_equity- aud009
+has posted us_corp bbut not us_muni - aud009
+select collateral type us_tips but not gbp_cash - aud010
+has posted gbp_cash but not inr_cash -aud011
+select cgmi cgml -aud012
+posted gbp_cash inr_cash but not us_tips - aud013
+us_tips but not us_munis us_corp- aud014
+gbp_cash but not us_equity nd has posted us_tips - aud015
+us_equity but not gbp_cash and has posted inr_cash - aud016
+select terminated linkers terminated cbna - aud017
+drafted posted cbna - aud018
+drafted entity cbna - -aud019
+terminated but not cbna - aud020
+legal entity cbna - aud021
+drafted posted cgmi and cbna - aud022
+dormant type us_corp but not us_tips - aud023
+dormant type us_corp but not inr_cash - aud024
+dormant entity us_tips but not us_munis - aud025
+collateral type gbpcash and has posted us_equity - aud026
+collateral type us_tips us_corp and has psoted gbpcash - aud027
+but not us_equity and has posted us_munis - aud028
+but not us_tips inr_cash and has posted gbpcash - aud029
+inrcash and has posted cgmi cgml - aud 030
+usmunis and has posted cgmi and cbna - aud031
+uscorp but not inrcash and legal entity cgmi - aud032
+usmunis but not uscorp and legal entity cgml - aud033
+gbpcash but not usequity and legal entity cbna - aud034
+select collateral type usmunis uscorp but not inrcash aand legal entity cgml - aud035
+select collateral type usmunis uscorp but not inrcash aand legal entity cgml - aud036
+select collateral type usmunis inrcash but not ustips aand legal entity cgmi - aud037
+select collateral type usequity uscorp but not gbpcash aand legal entity cbna - aud038
+select collateral type gbpcash ustips but not uscorp aand legal entity cgml and cgmi - aud039
+legal entity cgmi cgml and cbna - aud040
