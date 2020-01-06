@@ -1,0 +1,469 @@
+\data\
+ngram 1=37
+ngram 2=84
+ngram 3=105
+ngram 4=116
+ngram 5=109
+
+\1-grams:
+-2.0034604	<unk>	0
+0	<s>	-0.79622877
+-0.9100388	</s>	0
+-1.6610378	legal	-0.06898479
+-1.7993405	entity	-0.16406019
+-1.2874572	cgmi	-0.80326205
+-1.6610378	cgml	-0.098423086
+-1.6610378	cbna	-0.06898479
+-1.7993405	select	-0.16406019
+-1.6610378	collateral	-0.06898479
+-1.7993405	type	-0.16406024
+-1.4014006	usmuni	-0.13470764
+-1.0589778	and	-0.30967075
+-1.1972805	uscorp	-0.48582667
+-1.2874572	but	-1.2866323
+-1.7993405	not	-0.16406019
+-1.2874572	inrcash	-0.08135764
+-1.7993405	cgmi,cgml	-0.16406019
+-1.6610378	has	-0.06898479
+-1.7993405	posted	-0.16406019
+-1.4014006	locused	-0.11392595
+-1.6610378	gbpcash	-0.16406019
+-1.6610378	usequity	-0.16406019
+-1.7993405	locusd	-0.16406019
+-1.7993405	ustips	-0.16406019
+-1.7993405	usstrips	-0.16406019
+-1.6610378	gilt	-0.06898479
+-1.7993405	linker	-0.16406019
+-1.7993405	show	-0.16406019
+-1.7993405	exposure	-0.16406019
+-1.7993405	for	-0.16406019
+-1.7993405	usstips	-0.16406019
+-1.6610378	dormant	-0.16406019
+-1.7993405	executed	-0.16406019
+-1.7993405	terminated	-0.16406019
+-1.7993405	inactivated	-0.16406019
+-1.7993405	evergreen	-0.16406019
+
+\2-grams:
+-0.9544716	<s> </s>	0
+-1.1439646	cgmi </s>	0
+-0.7077799	cgml </s>	0
+-0.59891236	cbna </s>	0
+-0.87885857	usmuni </s>	0
+-1.1624612	uscorp </s>	0
+-0.84174716	inrcash </s>	0
+-0.7745191	locused </s>	0
+-0.3991131	usstrips </s>	0
+-0.3991131	linker </s>	0
+-0.3991131	terminated </s>	0
+-0.7917154	<s> legal	-0.5228787
+-1.4271126	and legal	-0.30103
+-0.7947638	legal entity	-0.30103
+-0.9430598	entity cgmi	-0.30103
+-1.0075395	select cgmi	-0.30103
+-1.2685229	and cgmi	-0.30103
+-1.0075395	not cgmi	-0.30103
+-1.0075395	posted cgmi	-0.30103
+-1.0286746	entity cgml	-0.30103
+-0.10034611	cgmi cgml	-0.38021123
+-1.0286746	entity cbna	-0.30103
+-0.91268533	cgml cbna	-0.30103
+-0.44298625	<s> select	-0.49732465
+-1.8546124	<s> collateral	-0.30103
+-1.1085721	select collateral	-0.30103
+-0.7947638	collateral type	-0.30103
+-0.87920547	type usmuni	-0.30103
+-0.45209247	uscorp usmuni	-0.39794
+-1.0451813	not usmuni	-0.30103
+-1.0451813	posted usmuni	-0.30103
+-0.96271837	usmuni and	-0.30103
+-1.2578512	uscorp and	-0.30103
+-0.94176185	inrcash and	-0.30103
+-0.42661464	cgmi,cgml and	-0.30103
+-0.66326153	gbpcash and	-0.30103
+-0.42661464	usstips and	-0.30103
+-0.42661464	executed and	-0.30103
+-0.42661464	evergreen and	-0.30103
+-0.9729017	select uscorp	-0.30103
+-0.8286072	type uscorp	-0.30103
+-1.0385613	usmuni uscorp	-0.30103
+-1.223871	and uscorp	-0.30103
+-0.9729017	not uscorp	-0.30103
+-0.9729017	posted uscorp	-0.30103
+-1.7437953	<s> but	-0.30103
+-1.0821074	usmuni but	-0.30103
+-0.57497406	uscorp but	-0.30103
+-1.0719249	inrcash but	-0.30103
+-0.92688376	locused but	-0.30103
+-0.02267198	but not	-0.30103
+-1.0821074	usmuni inrcash	-0.30103
+-1.2685229	and inrcash	-0.30103
+-1.0075395	not inrcash	-0.30103
+-1.0075395	posted inrcash	-0.30103
+-0.7152062	gbpcash inrcash	-0.30103
+-1.0480268	entity cgmi,cgml	-0.30103
+-0.7102438	<s> has	-0.60206
+-0.45489	and has	-0.42596874
+-0.7947638	has posted	-0.30103
+-0.87920547	type locused	-0.30103
+-1.3812656	uscorp locused	-0.30103
+-1.0451813	not locused	-0.30103
+-1.0451813	posted locused	-0.30103
+-1.1085721	select gbpcash	-0.30103
+-1.215035	usmuni gbpcash	-0.30103
+-1.2003787	inrcash usequity	-0.30103
+-1.0202644	locused usequity	-0.30103
+-0.7742188	usequity locusd	-0.30103
+-0.48746765	locusd ustips	-0.30103
+-0.48746765	ustips usstrips	-0.30103
+-1.8546124	<s> gilt	-0.30103
+-0.48205793	for gilt	-0.30103
+-0.7947638	gilt linker	-0.30103
+-1.8852377	<s> show	-0.30103
+-0.48746765	show exposure	-0.30103
+-0.48746765	exposure for	-0.30103
+-0.7742188	usequity usstips	-0.30103
+-1.1085721	select dormant	-0.30103
+-1.4056258	and dormant	-0.30103
+-0.7742188	dormant executed	-0.30103
+-1.439128	and terminated	-0.30103
+-0.7742188	dormant inactivated	-0.30103
+-0.48746765	inactivated evergreen	-0.30103
+
+\3-grams:
+-0.543797	entity cgmi </s>	0
+-0.22330472	entity cgml </s>	0
+-0.60497683	cgmi cgml </s>	0
+-0.20348862	entity cbna </s>	0
+-0.20348862	cgml cbna </s>	0
+-0.24711737	not usmuni </s>	0
+-0.5001943	posted usmuni </s>	0
+-0.6966684	not uscorp </s>	0
+-0.49216866	not inrcash </s>	0
+-0.49216866	posted inrcash </s>	0
+-0.23356247	not locused </s>	0
+-0.23356247	posted locused </s>	0
+-0.15523681	ustips usstrips </s>	0
+-0.15523681	gilt linker </s>	0
+-0.15523681	and terminated </s>	0
+-0.5707312	uscorp and legal	-0.30103
+-0.73196673	inrcash and legal	-0.30103
+-0.12602669	<s> legal entity	-0.30103
+-0.2364179	and legal entity	-0.30103
+-0.8040875	legal entity cgmi	-0.30103
+-1.1150624	<s> select cgmi	-0.30103
+-0.2782363	evergreen and cgmi	-0.30103
+-0.95218223	but not cgmi	-0.30103
+-0.91876775	has posted cgmi	-0.30103
+-0.60764545	legal entity cgml	-0.30103
+-0.18919794	entity cgmi cgml	-0.30103
+-0.04728129	select cgmi cgml	-0.30103
+-0.04728129	and cgmi cgml	-0.30103
+-0.04728129	not cgmi cgml	-0.30103
+-0.04728129	posted cgmi cgml	-0.30103
+-0.83325815	legal entity cbna	-0.30103
+-0.33011445	cgmi cgml cbna	-0.42596874
+-0.28002265	<s> select collateral	-0.66900676
+-0.2364179	<s> collateral type	-0.30103
+-0.2364179	select collateral type	-0.30103
+-0.71889037	collateral type usmuni	-0.30103
+-0.16969757	select uscorp usmuni	-0.30103
+-0.370026	type uscorp usmuni	-0.30103
+-0.46442658	not uscorp usmuni	-0.30103
+-0.370026	posted uscorp usmuni	-0.30103
+-0.9683502	but not usmuni	-0.30103
+-0.72603416	has posted usmuni	-0.30103
+-0.5164386	type usmuni and	-0.30103
+-0.5565597	and uscorp and	-0.30103
+-0.71157193	not uscorp and	-0.30103
+-0.25400817	and inrcash and	-0.30103
+-0.5126138	not inrcash and	-0.30103
+-0.16290337	entity cgmi,cgml and	-0.30103
+-0.21568973	select gbpcash and	-0.30103
+-0.16290337	usequity usstips and	-0.30103
+-0.16290337	dormant executed and	-0.30103
+-0.16290337	inactivated evergreen and	-0.30103
+-1.1006101	<s> select uscorp	-0.30103
+-0.48919642	collateral type uscorp	-0.30103
+-0.5290725	type usmuni uscorp	-0.30103
+-0.27583838	usmuni and uscorp	-0.30103
+-0.61848927	but not uscorp	-0.30103
+-0.9043155	has posted uscorp	-0.30103
+-0.87579095	uscorp usmuni but	-0.30103
+-0.4167511	type uscorp but	-0.30103
+-0.4167511	and uscorp but	-0.30103
+-0.4167511	posted uscorp but	-0.30103
+-0.26570538	usmuni inrcash but	-0.30103
+-0.5340691	posted inrcash but	-0.30103
+-0.25245774	type locused but	-0.30103
+-0.011188061	<s> but not	-0.30103
+-0.011188061	usmuni but not	-0.30103
+-0.011188061	uscorp but not	-0.30103
+-0.011188061	inrcash but not	-0.30103
+-0.011188061	locused but not	-0.30103
+-0.53553003	posted usmuni inrcash	-0.30103
+-0.2782363	usstips and inrcash	-0.30103
+-0.7591028	but not inrcash	-0.30103
+-0.7167064	has posted inrcash	-0.30103
+-0.22451296	usmuni gbpcash inrcash	-0.30103
+-0.83933496	legal entity cgmi,cgml	-0.30103
+-0.37118176	uscorp and has	-0.30103
+-0.4658634	inrcash and has	-0.30103
+-0.17042586	cgmi,cgml and has	-0.30103
+-0.17042586	gbpcash and has	-0.30103
+-0.10231631	<s> has posted	-0.30103
+-0.16421153	and has posted	-0.30103
+-0.71889037	collateral type locused	-0.30103
+-0.28334337	usmuni uscorp locused	-0.30103
+-0.9683502	but not locused	-0.30103
+-0.9337176	has posted locused	-0.30103
+-1.1534486	<s> select gbpcash	-0.30103
+-0.28035432	uscorp usmuni gbpcash	-0.42596874
+-0.27448007	gbpcash inrcash usequity	-0.30103
+-0.26144096	uscorp locused usequity	-0.30103
+-0.23351927	inrcash usequity locusd	-0.30103
+-0.17865483	usequity locusd ustips	-0.30103
+-0.17865483	locusd ustips usstrips	-0.30103
+-0.17732018	exposure for gilt	-0.30103
+-0.2364179	<s> gilt linker	-0.30103
+-0.2364179	for gilt linker	-0.30103
+-0.17865483	<s> show exposure	-0.30103
+-0.17865483	show exposure for	-0.30103
+-0.23351927	locused usequity usstips	-0.30103
+-1.1534486	<s> select dormant	-0.30103
+-0.7297502	inrcash and dormant	-0.30103
+-0.23351927	and dormant executed	-0.30103
+-0.28551066	executed and terminated	-0.30103
+-0.23351927	select dormant inactivated	-0.30103
+-0.17865483	dormant inactivated evergreen	-0.30103
+
+\4-grams:
+-0.4056668	legal entity cgmi </s>	0
+-0.09745541	legal entity cgml </s>	0
+-0.42693886	entity cgmi cgml </s>	0
+-0.2047018	and cgmi cgml </s>	0
+-0.08993367	legal entity cbna </s>	0
+-0.065645024	cgmi cgml cbna </s>	0
+-0.106214315	but not usmuni </s>	0
+-0.3892939	has posted usmuni </s>	0
+-0.5731667	but not uscorp </s>	0
+-0.30598807	but not inrcash </s>	0
+-0.3861678	has posted inrcash </s>	0
+-0.101265706	but not locused </s>	0
+-0.101265706	has posted locused </s>	0
+-0.07071892	locusd ustips usstrips </s>	0
+-0.07071892	<s> gilt linker </s>	0
+-0.07071892	for gilt linker </s>	0
+-0.07071892	executed and terminated </s>	0
+-0.19767082	not uscorp and legal	-0.30103
+-0.4651066	not inrcash and legal	-0.30103
+-0.10231631	uscorp and legal entity	-0.30103
+-0.10231631	inrcash and legal entity	-0.30103
+-0.42193145	<s> legal entity cgmi	-0.30103
+-0.11720715	inactivated evergreen and cgmi	-0.30103
+-0.5145345	<s> but not cgmi	-0.30103
+-0.84279305	<s> has posted cgmi	-0.30103
+-0.6509116	<s> legal entity cgml	-0.30103
+-0.4278226	and legal entity cgml	-0.30103
+-0.24152425	legal entity cgmi cgml	-0.30103
+-0.022997528	<s> select cgmi cgml	-0.30103
+-0.022997528	evergreen and cgmi cgml	-0.30103
+-0.022997528	but not cgmi cgml	-0.30103
+-0.022997528	has posted cgmi cgml	-0.30103
+-0.76094425	<s> legal entity cbna	-0.30103
+-0.31532878	entity cgmi cgml cbna	-0.30103
+-0.13441877	select cgmi cgml cbna	-0.30103
+-0.13441877	not cgmi cgml cbna	-0.30103
+-0.13441877	posted cgmi cgml cbna	-0.30103
+-0.040937576	<s> select collateral type	-0.44715804
+-0.5813948	select collateral type usmuni	-0.39794
+-0.076612465	<s> select uscorp usmuni	-0.30103
+-0.33415928	collateral type uscorp usmuni	-0.30103
+-0.47072756	but not uscorp usmuni	-0.30103
+-0.33415928	has posted uscorp usmuni	-0.30103
+-0.6566967	uscorp but not usmuni	-0.30103
+-0.7513114	<s> has posted usmuni	-0.30103
+-0.6596383	and has posted usmuni	-0.30103
+-0.39551374	collateral type usmuni and	-0.42596874
+-0.4102663	usmuni and uscorp and	-0.30103
+-0.57871425	but not uscorp and	-0.30103
+-0.108692504	usstips and inrcash and	-0.30103
+-0.49450505	but not inrcash and	-0.30103
+-0.07385795	legal entity cgmi,cgml and	-0.30103
+-0.094590135	<s> select gbpcash and	-0.30103
+-0.07385795	locused usequity usstips and	-0.30103
+-0.07385795	and dormant executed and	-0.30103
+-0.07385795	dormant inactivated evergreen and	-0.30103
+-0.17907871	<s> collateral type uscorp	-0.30103
+-0.48311687	select collateral type uscorp	-0.30103
+-0.40025234	collateral type usmuni uscorp	-0.30103
+-0.116378136	type usmuni and uscorp	-0.30103
+-0.4313764	<s> but not uscorp	-0.30103
+-0.4313764	inrcash but not uscorp	-0.30103
+-0.2073565	locused but not uscorp	-0.30103
+-0.5053948	<s> has posted uscorp	-0.30103
+-0.49955118	posted uscorp usmuni but	-0.30103
+-0.35504752	collateral type uscorp but	-0.30103
+-0.35504752	usmuni and uscorp but	-0.30103
+-0.35504752	has posted uscorp but	-0.30103
+-0.11284181	posted usmuni inrcash but	-0.30103
+-0.40210268	has posted inrcash but	-0.30103
+-0.10813712	collateral type locused but	-0.30103
+-0.005558004	uscorp usmuni but not	-0.30103
+-0.005558004	type uscorp but not	-0.30103
+-0.005558004	and uscorp but not	-0.30103
+-0.005558004	posted uscorp but not	-0.30103
+-0.005558004	usmuni inrcash but not	-0.30103
+-0.005558004	posted inrcash but not	-0.30103
+-0.005558004	type locused but not	-0.30103
+-0.40264118	has posted usmuni inrcash	-0.30103
+-0.11720715	usequity usstips and inrcash	-0.30103
+-0.23131031	usmuni but not inrcash	-0.30103
+-0.37633413	uscorp but not inrcash	-0.30103
+-0.7463431	<s> has posted inrcash	-0.30103
+-0.65561104	and has posted inrcash	-0.30103
+-0.071284726	uscorp usmuni gbpcash inrcash	-0.42596874
+-0.49162823	and legal entity cgmi,cgml	-0.30103
+-0.14708707	and uscorp and has	-0.30103
+-0.37567303	not inrcash and has	-0.30103
+-0.07690623	entity cgmi,cgml and has	-0.30103
+-0.07690623	select gbpcash and has	-0.30103
+-0.07439029	uscorp and has posted	-0.30103
+-0.07439029	inrcash and has posted	-0.30103
+-0.07439029	cgmi,cgml and has posted	-0.30103
+-0.07439029	gbpcash and has posted	-0.30103
+-0.5813948	select collateral type locused	-0.30103
+-0.1189628	type usmuni uscorp locused	-0.30103
+-0.51744103	inrcash but not locused	-0.30103
+-0.5111051	and has posted locused	-0.30103
+-0.1179369	select uscorp usmuni gbpcash	-0.30103
+-0.1179369	type uscorp usmuni gbpcash	-0.30103
+-0.1179369	not uscorp usmuni gbpcash	-0.30103
+-0.29056913	posted uscorp usmuni gbpcash	-0.30103
+-0.11590722	usmuni gbpcash inrcash usequity	-0.42596874
+-0.11133745	usmuni uscorp locused usequity	-0.30103
+-0.10124979	gbpcash inrcash usequity locusd	-0.42596874
+-0.080204844	inrcash usequity locusd ustips	-0.42596874
+-0.080204844	usequity locusd ustips usstrips	-0.42596874
+-0.079672396	show exposure for gilt	-0.30103
+-0.10231631	exposure for gilt linker	-0.30103
+-0.080204844	<s> show exposure for	-0.30103
+-0.10124979	uscorp locused usequity usstips	-0.30103
+-0.2268297	and inrcash and dormant	-0.30103
+-0.10124979	inrcash and dormant executed	-0.30103
+-0.11970376	dormant executed and terminated	-0.30103
+-0.10124979	<s> select dormant inactivated	-0.30103
+-0.080204844	select dormant inactivated evergreen	-0.30103
+
+\5-grams:
+-0.43992615	<s> legal entity cgmi </s>
+-0.045999806	<s> legal entity cgml </s>
+-0.045999806	and legal entity cgml </s>
+-0.35943744	legal entity cgmi cgml </s>
+-0.090400316	evergreen and cgmi cgml </s>
+-0.042643055	<s> legal entity cbna </s>
+-0.031583384	entity cgmi cgml cbna </s>
+-0.031583384	select cgmi cgml cbna </s>
+-0.031583384	not cgmi cgml cbna </s>
+-0.031583384	posted cgmi cgml cbna </s>
+-0.049868144	uscorp but not usmuni </s>
+-0.15241404	and has posted usmuni </s>
+-0.19818549	inrcash but not uscorp </s>
+-0.12658517	usmuni but not inrcash </s>
+-0.42926782	uscorp but not inrcash </s>
+-0.15150577	and has posted inrcash </s>
+-0.047687963	inrcash but not locused </s>
+-0.047687963	and has posted locused </s>
+-0.025189603	usequity locusd ustips usstrips </s>
+-0.0339216	exposure for gilt linker </s>
+-0.0339216	dormant executed and terminated </s>
+-0.08768485	but not uscorp and legal
+-0.2969881	but not inrcash and legal
+-0.048151985	not uscorp and legal entity
+-0.048151985	not inrcash and legal entity
+-0.054661524	dormant inactivated evergreen and cgmi
+-0.16323213	uscorp and legal entity cgml
+-0.20757659	<s> legal entity cgmi cgml
+-0.011346556	inactivated evergreen and cgmi cgml
+-0.011346556	<s> but not cgmi cgml
+-0.011346556	<s> has posted cgmi cgml
+-0.30812055	legal entity cgmi cgml cbna
+-0.062029526	<s> select cgmi cgml cbna
+-0.062029526	but not cgmi cgml cbna
+-0.062029526	has posted cgmi cgml cbna
+-0.22647908	<s> select collateral type usmuni
+-0.13570344	<s> collateral type uscorp usmuni
+-0.17448398	<s> but not uscorp usmuni
+-0.24797325	<s> has posted uscorp usmuni
+-0.21451123	posted uscorp but not usmuni
+-0.21504109	inrcash and has posted usmuni
+-0.17986664	select collateral type usmuni and
+-0.49566054	type usmuni and uscorp and
+-0.19934934	locused but not uscorp and
+-0.05095474	usequity usstips and inrcash and
+-0.27154303	uscorp but not inrcash and
+-0.03536079	and legal entity cgmi,cgml and
+-0.03536079	uscorp locused usequity usstips and
+-0.03536079	inrcash and dormant executed and
+-0.03536079	select dormant inactivated evergreen and
+-0.7238968	<s> select collateral type uscorp
+-0.5864482	select collateral type usmuni uscorp
+-0.04007712	collateral type usmuni and uscorp
+-0.16419543	usmuni inrcash but not uscorp
+-0.09141858	type locused but not uscorp
+-0.38904467	has posted uscorp usmuni but
+-0.14220868	select collateral type uscorp but
+-0.2249279	type usmuni and uscorp but
+-0.41180927	<s> has posted uscorp but
+-0.052766237	has posted usmuni inrcash but
+-0.15608723	<s> has posted inrcash but
+-0.050711524	select collateral type locused but
+-0.0027701238	posted uscorp usmuni but not
+-0.0027701238	collateral type uscorp but not
+-0.0027701238	usmuni and uscorp but not
+-0.0027701238	has posted uscorp but not
+-0.0027701238	posted usmuni inrcash but not
+-0.0027701238	has posted inrcash but not
+-0.0027701238	collateral type locused but not
+-0.15623997	<s> has posted usmuni inrcash
+-0.054661524	locused usequity usstips and inrcash
+-0.10043399	uscorp usmuni but not inrcash
+-0.14861841	type uscorp but not inrcash
+-0.14861841	and uscorp but not inrcash
+-0.21431495	uscorp and has posted inrcash
+-0.034181412	select uscorp usmuni gbpcash inrcash
+-0.034181412	type uscorp usmuni gbpcash inrcash
+-0.034181412	not uscorp usmuni gbpcash inrcash
+-0.034181412	posted uscorp usmuni gbpcash inrcash
+-0.17967284	inrcash and legal entity cgmi,cgml
+-0.067346126	usmuni and uscorp and has
+-0.42344162	but not inrcash and has
+-0.036752988	legal entity cgmi,cgml and has
+-0.036752988	<s> select gbpcash and has
+-0.035604298	and uscorp and has posted
+-0.035604298	not inrcash and has posted
+-0.035604298	entity cgmi,cgml and has posted
+-0.035604298	select gbpcash and has posted
+-0.7823436	<s> select collateral type locused
+-0.05542074	collateral type usmuni uscorp locused
+-0.18582574	posted inrcash but not locused
+-0.18434116	cgmi,cgml and has posted locused
+-0.18434116	gbpcash and has posted locused
+-0.054977328	<s> select uscorp usmuni gbpcash
+-0.054977328	collateral type uscorp usmuni gbpcash
+-0.054977328	but not uscorp usmuni gbpcash
+-0.29576805	has posted uscorp usmuni gbpcash
+-0.039928958	uscorp usmuni gbpcash inrcash usequity
+-0.052110605	type usmuni uscorp locused usequity
+-0.035261024	usmuni gbpcash inrcash usequity locusd
+-0.028369641	gbpcash inrcash usequity locusd ustips
+-0.028369641	inrcash usequity locusd ustips usstrips
+-0.038011726	<s> show exposure for gilt
+-0.048151985	show exposure for gilt linker
+-0.04768094	usmuni uscorp locused usequity usstips
+-0.098771185	usstips and inrcash and dormant
+-0.04768094	and inrcash and dormant executed
+-0.05574066	and dormant executed and terminated
+-0.038253535	<s> select dormant inactivated evergreen
+
+\end\
