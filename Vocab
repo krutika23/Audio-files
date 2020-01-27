@@ -39,3 +39,24 @@ select collateral type usmunis inrcash but not ustips aand legal entity cgmi - a
 select collateral type usequity uscorp but not gbpcash aand legal entity cbna - aud038
 select collateral type gbpcash ustips but not uscorp aand legal entity cgml and cgmi - aud039
 legal entity cgmi cgml and cbna - aud040
+select uscorp inrcash but not gbpcash - aud041
+select inrcash but not usmunis and has posted gbpcash - aud042
+select gbpcash and has posted inrcash - aud043
+select ustips usmunis and has posted uscorp - aud044
+select gbpcash and legal entity cgml - aud045
+select ustips and legal entity cbna - aud046
+select inrcash and legal entity cgmi - aud047
+select usmunis uscorp and legal entity cgmi cgml - aud048
+show exposure to gilt linker - aud049
+select gbpcash but not uscorp and has posted inrcash - aud050
+select usmunis but not ustips and has posted gbpcash - aud051
+select uscorp but not inrcash and has posted usmunis - aud052
+select inrcash but not usmunis and has posted ustips - aud053
+select ustips but not gbpcash and has posted uscorp - aud054
+select gilt linker - aud055
+select legal entity cbna - aud056
+select legal entity cgml - aud057
+select legal entity cgmi - aud058
+select legal entity cbna cgml - aud059
+select legal entity cbna cgmi - aud060
+select legal entity cgml cgmi - aud061
